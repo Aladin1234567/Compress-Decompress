@@ -1,0 +1,128 @@
+{
+    "application_name": "Aplikasi Kompres & De-kompres",
+    "version": "2.0.0",
+    "description": "Aplikasi web untuk kompresi file gambar, video, dan kode dengan fitur modern",
+    "features": {
+        "image_compression": {
+            "supported_formats": ["JPEG", "PNG", "WebP"],
+            "quality_settings": {
+                "minimum": 10,
+                "maximum": 100,
+                "default": 80
+            },
+            "resize_options": {
+                "presets": [
+                    {"name": "Small", "width": 320, "height": 240},
+                    {"name": "Medium", "width": 640, "height": 480},
+                    {"name": "Large", "width": 1280, "height": 720},
+                    {"name": "HD", "width": 1920, "height": 1080},
+                    {"name": "4K", "width": 3840, "height": 2160}
+                ]
+            }
+        },
+        "video_compression": {
+            "supported_formats": ["MP4", "WebM", "AVI"],
+            "quality_settings": {
+                "minimum": 10,
+                "maximum": 100,
+                "default": 70
+            },
+            "fps_options": [15, 30, 45, 60],
+            "bitrate_control": true
+        },
+        "code_compression": {
+            "supported_languages": [
+                "JSON", "Python", "PHP", "JavaScript", 
+                "CSS", "HTML", "XML", "SQL"
+            ],
+            "compression_methods": {
+                "comment_removal": true,
+                "whitespace_removal": true,
+                "key_minification": true
+            }
+        },
+        "file_compression": {
+            "zip_support": true,
+            "password_protection": false,
+            "batch_processing": true
+        }
+    },
+    "user_interface": {
+        "theme": {
+            "light_mode": {
+                "background": "rgba(255, 255, 255, 0.1)",
+                "text_color": "#2c3e50",
+                "accent_color": "#667eea"
+            },
+            "dark_mode": {
+                "background": "rgba(44, 62, 80, 0.9)",
+                "text_color": "#ecf0f1",
+                "accent_color": "#5dade2"
+            }
+        },
+        "animations": {
+            "gradient_background": true,
+            "hover_effects": true,
+            "loading_animations": true,
+            "transition_effects": true
+        },
+        "responsive_design": {
+            "mobile_optimized": true,
+            "tablet_optimized": true,
+            "desktop_optimized": true
+        }
+    },
+    "performance_metrics": {
+        "compression_ratios": {
+            "images": {
+                "average_reduction": "45%",
+                "best_case": "80%",
+                "worst_case": "15%"
+            },
+            "videos": {
+                "average_reduction": "60%",
+                "best_case": "85%",
+                "worst_case": "25%"
+            },
+            "code": {
+                "average_reduction": "35%",
+                "best_case": "70%",
+                "worst_case": "10%"
+            }
+        },
+        "processing_speed": {
+            "images": "0.5-2 seconds",
+            "videos": "10-60 seconds",
+            "code": "0.1-1 second"
+        }
+    },
+    "technical_specifications": {
+        "browser_support": [
+            "Chrome 80+",
+            "Firefox 75+",
+            "Safari 13+",
+            "Edge 80+"
+        ],
+        "file_size_limits": {
+            "images": "50 MB",
+            "videos": "500 MB",
+            "code_files": "10 MB"
+        },
+        "technologies_used": [
+            "HTML5",
+            "CSS3",
+            "JavaScript ES6+",
+            "Canvas API",
+            "MediaRecorder API",
+            "File API",
+            "JSZip Library"
+        ]
+    },
+    "development_info": {
+        "created_by": "AI Assistant",
+        "last_updated": "2024-12-19",
+        "license": "MIT",
+        "repository": "https://github.com/example/compression-app",
+        "documentation": "https://docs.example.com/compression-app"
+    }
+} 
